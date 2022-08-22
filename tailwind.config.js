@@ -8,11 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'bravo-dark': "#383330",
-        'bravo-light': "#383330",
-        'bravo-accent': "#db6c47",
+        "bravo-dark": "#383330",
+        "bravo-light": "#383330",
+        "bravo-accent": "#db6c47",
+      },
+      fontFamily: {
+        Aboreto: "'Aboreto', cursive",
+        Alumni: "'Alumni Sans Pinstripe', sans-serif",
+        Quicksand: "'Quicksand', sans-serif",
       },
     },
   },
-  plugins: [],
 };

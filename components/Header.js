@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='font-Aboreto text-8xl font-bold text-bravo-logo'>Bravo</div>
   )
 }
 
