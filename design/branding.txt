@@ -1,0 +1,7 @@
+Name: Bravo 
+
+colors: {
+    dark: #383330
+    light: #f5f2ef
+    accent: #db6c47
+}

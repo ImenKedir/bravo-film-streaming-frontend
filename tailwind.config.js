@@ -1,12 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: 'jit',
+  mode: "jit",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'bravo-dark': "#383330",
+        'bravo-light': "#383330",
+        'bravo-accent': "#db6c47",
+      },
+    },
   },
   plugins: [],
-}
+};
