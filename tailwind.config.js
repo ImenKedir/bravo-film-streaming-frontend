@@ -14,8 +14,6 @@ module.exports = {
       },
       fontFamily: {
         Aboreto: "'Aboreto', cursive",
-        Alumni: "'Alumni Sans Pinstripe', sans-serif",
-        Quicksand: "'Quicksand', sans-serif",
       },
     },
   },
