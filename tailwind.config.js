@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         "bravo-dark": "#383330",
-        "bravo-light": "#383330",
+        "bravo-light": "#f5f2ef",
         "bravo-accent": "#db6c47",
       },
       fontFamily: {
