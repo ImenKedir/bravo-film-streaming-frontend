@@ -10,9 +10,12 @@ import HeaderItem from "./HeaderItem";
 
 const Header = () => {
   return (
-    <header className="mx-auto max-w-[1240px] flex flex-col md:flex-row md:justify-between items-center">
-      <h1 className="m-8 self-center text-6xl font-bold text-bravo-dark font-Aboreto">Bravo</h1>
-      <div className="m-2 flex flex-gow justify-evenly">
+    <header className="mx-auto p-8 max-w-[1920px] flex flex-col md:flex-row md:justify-between items-center">
+      <div className="p-4 text-center">
+      <h1 className="text-6xl font-Aboreto font-bold text-bravo-dark">Bravo</h1>
+      <p className="p-2 text-sm font-Oswald font-light text-bravo-accent">Film Streaming Platform</p>
+      </div>
+      <div className="py-2 flex flex-gow justify-evenly">
         <HeaderItem title="HOME" Icon={HomeIcon} />
         <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
         <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon} />

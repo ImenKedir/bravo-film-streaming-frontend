@@ -13,7 +13,8 @@ module.exports = {
         "bravo-accent": "#db6c47",
       },
       fontFamily: {
-        Aboreto: "'Aboreto', cursive",
+        Aboreto: "'Aboreto', cursive", 
+        Oswald: "'Oswald', sans-serif;"
       },
     },
   },
