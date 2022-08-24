@@ -1,7 +1,10 @@
 import React from "react";
+import { useRouter } from "next/router";
 import requests from "../utils/requests";
 
 const Nav = () => {
+  const router = useRouter();
+
   return (
     <nav className="relative mx-auto max-w-[720px]">
       <div className="py-4 px-12 space-x-10 flex text-2xl whitespace-nowrap overflow-x-scroll scrollbar-hide">
@@ -9,9 +12,12 @@ const Nav = () => {
           return (
             <h2
               key={key}
-              className="cursor-pointer transition duration-100 
+              onClick={() => {
+                router.push(`/?genere=${title}`);
+              }}
+              className="text-base cursor-pointer transition duration-100 
               transform hover:scale-125 active:text-bravo-accent
-              text-Oswald text-light"
+              font-Aboreto text-light"
             >
               {title}
             </h2>
