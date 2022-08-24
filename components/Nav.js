@@ -4,7 +4,7 @@ import requests from "../utils/requests";
 const Nav = () => {
   return (
     <nav className="relative mx-auto max-w-[720px]">
-      <div className="py-4 px-12 space-x-10 flex text-2xl whitespace-nowrap overflow-x-scroll">
+      <div className="py-4 px-12 space-x-10 flex text-2xl whitespace-nowrap overflow-x-scroll scrollbar-hide">
         {Object.entries(requests).map(([key, { title, url }]) => {
           return (
             <h2

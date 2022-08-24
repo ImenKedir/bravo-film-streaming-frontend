@@ -13,9 +13,10 @@ module.exports = {
         "bravo-accent": "#db6c47",
       },
       fontFamily: {
-        Aboreto: "'Aboreto', cursive", 
-        Oswald: "'Oswald', sans-serif;"
+        Aboreto: "'Aboreto', cursive",
+        Oswald: "'Oswald', sans-serif;",
       },
     },
   },
+  plugins: [require("tailwind-scrollbar-hide")],
 };
