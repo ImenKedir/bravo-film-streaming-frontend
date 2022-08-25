@@ -4,7 +4,7 @@ const Thumbnail = ({ film }) => {
   console.log(film);
   const BASE_URL = "https://image.tmdb.org/t/p/original/";
   return (
-    <thumbnail className="p-4 group cursor-pointer">
+    <thumbnail className="m-4 group cursor-pointer shadow-2xl rounded-3xl">
       <div className="relative">
         <Image
           className="rounded-t-3xl"
@@ -19,10 +19,10 @@ const Thumbnail = ({ film }) => {
         <div className="absolute bottom-0 bg-gradient-to-t from-bravo-dark h-1/2 w-full" />
       </div>
       <div className="p-4 rounded-b-3xl bg-bravo-dark text-bravo-light">
-        <h2 className="text-2xl font-Aboreto">
+        <h2 className="text-xl font-Aboreto">
           {film.title || film.original_name}
         </h2>
-        <div className="flex text-sm font-light">
+        <div className="flex text-xs font-light">
           <p>{film.release_date}</p>
         </div>
       </div>
