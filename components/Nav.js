@@ -11,9 +11,9 @@ const Nav = () => {
         {Object.entries(requests).map(([key, { title, url }]) => {
           return (
             <h2
-              key={key}
+              key={title}
               onClick={() => {
-                router.push(`/?genere=${title}`);
+                router.push(`/?genere=${key}`);
               }}
               className="text-base cursor-pointer transition duration-100 
               transform hover:scale-125 active:text-bravo-accent

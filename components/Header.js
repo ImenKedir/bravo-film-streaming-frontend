@@ -1,6 +1,6 @@
 import HeaderItem from "./HeaderItem";
 import Link from "next/link";
-import { HiHome, HiSearch, HiCollection} from "react-icons/hi";
+import { HiHome, HiSearch, HiCollection } from "react-icons/hi";
 
 const Header = () => {
   return (
@@ -16,17 +16,7 @@ const Header = () => {
       <div className="py-2 flex flex-gow justify-evenly">
         <Link href="/">
           <a>
-            <HeaderItem title="HOME" Icon={HiHome} />
-          </a>
-        </Link>
-        <Link href="/explore">
-          <a>
-            <HeaderItem title="EXPLORE" Icon={HiCollection} />
-          </a>
-        </Link>
-        <Link href="/search">
-          <a>
-            <HeaderItem title="EXPLORE" Icon={HiSearch} />
+            <HeaderItem title="HOME" Icon={HiCollection} />
           </a>
         </Link>
       </div>
