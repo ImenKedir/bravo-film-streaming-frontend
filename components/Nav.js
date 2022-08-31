@@ -16,7 +16,7 @@ const Nav = () => {
                 router.push(`/?genere=${key}`);
               }}
               className="text-base cursor-pointer transition duration-100 
-              transform hover:scale-125 active:text-bravo-accent
+              transform hover:scale-125 hover:text-bravo-accent active:text-bravo-accent
               font-Aboreto text-light"
             >
               {title}
