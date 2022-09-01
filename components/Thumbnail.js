@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 const Thumbnail = ({ film }) => {
-  console.log(film);
   const BASE_URL = "https://image.tmdb.org/t/p/original/";
   return (
     <thumbnail className="m-4 group h-fit cursor-pointer shadow-2xl rounded-3xl">
