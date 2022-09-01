@@ -8,6 +8,7 @@ const Thumbnail = ({ film }) => {
         <Image
           className="rounded-t-3xl"
           layout="responsive"
+          alt='img'
           src={
             `${BASE_URL}${film.backdrop_path || film.poster_path}` ||
             `${BASE_URL}${film.poster_path}`
